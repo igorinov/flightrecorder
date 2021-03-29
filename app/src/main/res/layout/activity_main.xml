@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:labelFor="@id/device_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#555555"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:text="@string/device_info" />
+
+    <TextView
+        android:id="@+id/device_info"
+        android:layout_width="match_parent"
+        android:layout_height="0pt"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textSize="9pt"
+        android:textColor="@color/design_default_color_secondary"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:labelFor="@id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="12pt"
+        android:layout_gravity="center"
+        android:textSize="8pt"
+        android:background="#555555"
+        android:textColor="@color/white"
+        android:text="@string/filename" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:fontFamily="monospace"
+        android:id="@+id/filename"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_device"
+        android:textAllCaps="false"
+        android:textSize="8pt"
+        android:id="@+id/select_device" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_airspeed"
+        android:id="@+id/log_airspeed" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_pressure"
+        android:id="@+id/log_pressure" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_position"
+        android:id="@+id/log_position" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:gravity="center">
+        <Button
+            android:layout_width="48pt"
+            android:layout_height="24pt"
+            android:layout_margin="3pt"
+            android:text="@string/start"
+            android:textAllCaps="false"
+            android:id="@+id/start" />
+        <Button
+            android:layout_width="48pt"
+            android:layout_height="24pt"
+            android:layout_margin="3pt"
+            android:text="@string/stop"
+            android:textAllCaps="false"
+            android:id="@+id/stop" />
+    </LinearLayout>
+
+</LinearLayout>

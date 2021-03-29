@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Flight Recorder</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="new_record">New record</string>
+    <string name="title_activity_usb_device_list">UsbDeviceListActivity</string>
+    <string name="select_device">Select USB device</string>
+    <string name="log_position">Log GNSS position</string>
+    <string name="log_pressure">Log barometric pressure</string>
+    <string name="log_airspeed">Log airspeed</string>
+    <string name="channel_name">Channel name</string>
+    <string name="channel_description">Channel description</string>
+    <string name="device_name">Device name</string>
+    <string name="filename">Log file name</string>
+    <string name="device_info">Device information</string>
+</resources>
